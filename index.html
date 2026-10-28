@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal portfolio showcasing selected projects, skills, and contact information.">
+  <title>MP — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="MouPal home"><span class="brand-mark">A</span> MouPal<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Let’s talk <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</p>
+          <h1>Building digital<br>experiences with <span>purpose.</span></h1>
+          <p class="hero-description">Hi, I’m mou — a creative developer who turns thoughtful ideas into clean, accessible, and useful web experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="button button-quiet" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-meta">
+            <div class="avatar-stack" aria-hidden="true"><span>A</span><span>UX</span><span>DEV</span></div>
+            <p>Design-minded. Detail-driven.<br><strong>Always learning.</strong></p>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative abstract portfolio illustration">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-glow"></div>
+          <div class="art-card card-back"><span class="tiny-label">IDEA / 001</span><div class="mini-lines"><i></i><i></i><i></i></div></div>
+          <div class="art-card card-front">
+            <div class="window-top"><span></span><span></span><span></span><small>creative_space.fig</small></div>
+            <div class="art-content"><div class="art-symbol"><i class="fa-solid fa-shapes"></i></div><p>Make it<br><strong>meaningful.</strong></p>
+              <div class="art-bar"><span></span></div><div class="art-caption">DESIGN · BUILD · REFINE</div></div>
+          </div>
+          <div class="floating-tag tag-top"><i class="fa-solid fa-wand-magic-sparkles"></i> Creative thinking</div>
+          <div class="floating-tag tag-bottom"><i class="fa-solid fa-code"></i> Clean code</div>
+          <span class="spark spark-one">✳</span><span class="spark spark-two">✦</span>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 — 04</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container section-grid">
+        <div><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious by nature.<br><span>Builder by choice.</span></h2></div>
+        <div class="about-copy">
+          <p class="lead">I enjoy the space where design, technology, and real human needs meet.</p>
+          <p>I create responsive websites and intuitive interfaces with a focus on clarity, performance, and the small details that make a product feel polished. I believe good work starts with listening, grows through experimentation, and gets better with feedback.</p>
+          <div class="skill-list"><span>HTML & CSS</span><span>JavaScript</span><span>Responsive UI</span><span>Accessibility</span><span>Problem solving</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2>Things I’ve <span>made.</span></h2></div><p>A few concept projects that show how I approach useful, user-friendly digital experiences.</p></div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual visual-one"><div class="dashboard-window"><div class="dash-top"><b>orbit.</b><span>● ● ●</span></div><div class="dash-body"><div class="dash-side"></div><div class="dash-main"><div class="dash-title"></div><div class="metric-row"><i></i><i></i><i></i></div><div class="chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div></div></div><span class="visual-index">01</span></div>
+            <div class="project-info"><div><p class="project-type">DASHBOARD · UI DESIGN</p><h3>Orbit Analytics</h3></div><a class="circle-link" href="#contact" aria-label="Ask about Orbit Analytics"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+            <p class="project-description">A clean analytics dashboard concept that makes complex metrics easier to scan and understand.</p>
+            <div class="project-tags"><span>Dashboard</span><span>Data visualization</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-two"><div class="phone-mock"><div class="phone-notch"></div><div class="phone-greeting">Good morning,<br><b>Jamie ✦</b></div><div class="phone-card"><span>WEEKLY GOAL</span><b>4.8 <small>/ 5 hrs</small></b><div class="progress"><i></i></div></div><div class="phone-row"><i class="fa-solid fa-leaf"></i><span>Mindful break</span><b>→</b></div><div class="phone-row"><i class="fa-solid fa-book-open"></i><span>Daily reflection</span><b>→</b></div></div><span class="visual-index">02</span></div>
+            <div class="project-info"><div><p class="project-type">MOBILE · PRODUCT CONCEPT</p><h3>Daylight Wellness</h3></div><a class="circle-link" href="#contact" aria-label="Ask about Daylight Wellness"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+            <p class="project-description">A gentle habit-tracking experience designed to make everyday wellbeing feel achievable.</p>
+            <div class="project-tags"><span>Mobile-first</span><span>Product design</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-three"><div class="shop-window"><div class="shop-nav">FORME <span>COLLECTION&nbsp;&nbsp; ABOUT&nbsp;&nbsp; BAG (0)</span></div><div class="shop-copy">Objects for<br><em>slower living.</em><small>Thoughtfully made. Made to last.</small><i class="fa-solid fa-arrow-right"></i></div><div class="product-shapes"><div class="vase vase-one"></div><div class="vase vase-two"></div><div class="vase vase-three"></div></div></div><span class="visual-index">03</span></div>
+            <div class="project-info"><div><p class="project-type">E-COMMERCE · FRONTEND</p><h3>Forme Studio</h3></div><a class="circle-link" href="#contact" aria-label="Ask about Forme Studio"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+            <p class="project-description">A warm, editorial storefront concept for a fictional homeware brand with a focus on product storytelling.</p>
+            <div class="project-tags"><span>Landing page</span><span>Brand experience</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-panel">
+        <div><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let’s make something<br><span>worth remembering.</span></h2><p class="contact-description">Have an idea, an opportunity, or just want to say hello? My inbox is open.</p></div>
+        <div class="contact-actions"><a class="button button-light" href="mailto:moumitapaluemk2015@gmail.com">moumitapaluemk2015@gmail.com <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <div class="social-links">
+            <a href="https://linkedin.com/in/moumita-pal-186222164/" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://github.com/" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i></a></div></div>
+        <span class="contact-decoration">✳</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">A</span> mp<span class="brand-dot">.</span></a>
+      <p>Designed with intention. Built with care.</p><p>© <span id="year"></span> MP</p>
+      <a class="back-top" href="#home">Back to top ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
